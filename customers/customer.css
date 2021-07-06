@@ -1,0 +1,79 @@
+body{
+    background: url('https://eurojatalous.studio.crasman.fi/pub/Sis%C3%A4lt%C3%B6tiedostot/Kuvituskuvat/2018/2018-2/ET-2-2018_Artikkeli-11-16x9.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.my-info{
+    font-family: 'Noto Serif JP', serif !important; 
+    text-align: center !important; 
+    background-color: rgba(0,0,0, 0.4) !important; 
+    width: 100% !important;    
+    height: 180px !important;  
+    margin-left: auto !important;  
+    margin-right: auto !important; 
+    margin-top: 50px !important; 
+    font-weight: bold;
+}
+
+
+.btn-info{
+    background-color: transparent !important; 
+    width: 220px !important; 
+    height: 50px !important;   
+    color: white !important;   
+    border-style: none !important; 
+    font-family: 'Cormorant Garamond', serif !important;  
+    font-size: 17px !important;    
+    cursor: pointer !important;    
+    transition: 1s !important; 
+    text-decoration: none !important; 
+}
+
+.btn-info:hover{
+    background-color: #ffffff !important; 
+    box-shadow: 0 0 40px #ffffff !important;  
+    color: black !important;  
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse !important; 
+    width: 100% !important;   
+}
+
+th{
+    background-color: black !important;    
+    font-family: 'Arima Madurai', cursive !important;  
+    color: cornsilk !important;    
+    padding-top: 12px !important; 
+    padding-bottom: 12px !important;  
+    letter-spacing: 3px !important;  
+    font-size: 20px !important;    
+    border: 1px solid cornsilk !important; 
+}
+
+tr{
+    background-color: rgba(0,0,0, 0.3) !important; 
+    font-family: 'Arima Madurai', cursive !important;  
+    color: #8c8c8c !important;  
+    font-weight: bold !important;  
+    font-size: 20px !important;    
+    letter-spacing: 3px !important;   
+    transition-duration: 0.5s !important;  
+}
+
+td{
+    border: 1px solid rgba(0,0,0, 0.4) !important; 
+}
+
+tr:hover{
+    cursor: pointer !important; 
+    background-color: #d9d9d9 !important;  
+    color: black !important; 
+    
+}
+

@@ -1,0 +1,71 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes changing {
+    0% {color: rgb(97, 255, 239);}
+    15% {color: #26c95f;}
+    30% {color: #36f016;}
+    45% {color: #f2ff00;}
+    60% {color: #ff8000;}
+    75% {color: #ff0000;}
+    90% {color: #f200ff;}
+    100% {color: rgb(97, 255, 239);}
+}
+
+#top{
+    animation: changing 10s infinite;
+    animation-delay: 1s;
+    color: rgb(97, 255, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;   
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+body{
+    background: url('https://eurojatalous.studio.crasman.fi/pub/Sis%C3%A4lt%C3%B6tiedostot/Kuvituskuvat/2018/2018-2/ET-2-2018_Artikkeli-11-16x9.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+#button{
+    text-align: center;
+}
+
+footer{
+    color: floralwhite;
+    font-family: footerFont, sans-serif;
+}
+
+button{
+    margin-top: 150px;
+    background-color: rgba(0,0,0, 0.3);
+    width: 190px;
+    height: 110px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    transition-duration: 0.6s;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color:rgba(255,255,255, 0.3);
+    cursor: pointer;
+    font-size: 27px;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
+
+footer{
+    margin-top: 250px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 40px;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+}
